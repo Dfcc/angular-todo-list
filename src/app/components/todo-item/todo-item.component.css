@@ -1,0 +1,29 @@
+.todo {
+    background: #f4f4f4;
+    grid-template-columns: repeat(6, 1fr);
+    grid-gap: 2px;
+    margin: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+    border: 3px solid #757575a6;
+    border-radius: 1rem;
+}
+
+.todo.reminder {
+    border-left: 5px solid green;
+}
+
+.todo h3 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.iconx  {
+    color: red;
+    /* position: relative; */
+    /* right: 42px; */
+    float: right;
+    font-size: 3rem;
+    margin-top: -1rem;
+}

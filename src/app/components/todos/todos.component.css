@@ -1,0 +1,38 @@
+.grid-moi{
+    display: grid;
+    min-width: 220px;
+    grid-template-columns: repeat(5, 5fr);
+    grid-gap: 2px;
+    align-items: end;
+    align-content: stretch;
+    justify-content: space-evenly;
+    justify-items: stretch;
+    width: 85%;
+    margin: auto;
+    margin-top: 1.5rem;
+}
+@media screen and (max-width:650px) {
+.grid-moi{
+    display: grid;
+    min-width: 220px;
+    grid-template-columns: repeat(1, 5fr);
+    grid-gap: 5px;
+    transition: 0.3s;
+  
+}
+}
+@media screen and (max-width:1350px) {
+  .grid-moi[_ngcontent-tkc-c58] {
+    display: grid;
+   grid-template-columns: repeat(3, 5fr);
+    grid-gap: 2px;
+    align-items: baseline;
+    align-content: space-around;
+    justify-items: stretch;
+    margin: auto;
+    margin-top: 1.5rem;
+    justify-content: space-evenly;
+    transition: 0.4s;
+    }
+
+}

@@ -1,0 +1,12 @@
+<app-form-todo (onAddTodo)="addTodo($event)"></app-form-todo>
+<div class="grid-moi">
+<app-todo-item 
+    *ngFor="let todo of todos" 
+    [todo]="todo" 
+    (onDeleteTodo)="deleteTodo(todo)" 
+    (onToggleReminder)="toggleReminder(todo)"
+    (onEditTodo)="editTodo(todo)"
+    >
+    <app-button color="{{todo ? 'red':'green'}}" text="{{todo ? 'Closed':'UpdateTodo'}}" (click)="toggleEditTodo()"></app-button>
+   </app-todo-item>
+</div>
