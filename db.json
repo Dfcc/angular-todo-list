@@ -1,22 +1,16 @@
 {
   "todos": [
     {
-      "text": "my new todo25",
+      "text": "my new todo",
       "day": "5555",
       "reminder": true,
-      "id": 1
+      "id": 6
     },
     {
-      "text": "my new todo25",
-      "day": "1/06/2025",
-      "reminder": false,
-      "id": 2
-    },
-    {
-      "text": "Carlitos tiene que acabar",
-      "day": "1/06/2025",
-      "reminder": false,
-      "id": 3
+      "text": "my new todotttttttttttttttt",
+      "day": "5555",
+      "reminder": true,
+      "id": 7
     }
   ]
 }

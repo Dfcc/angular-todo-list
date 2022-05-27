@@ -45,5 +45,19 @@ export class EditTodoComponent implements OnInit {
 
   
   }
+/*   editTodo(id:number, editText:string) :void{
+    this.todos.map((value, idx) => {
+      if(idx === id) {
+        console.log(value.name)
+        value.name = editText;
+
+        console.log("edited")
+        this.setEdit(id);
+      }
+
+      return value;
+    })
+  }
+ */
 
 }
